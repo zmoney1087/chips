@@ -1,4 +1,20 @@
-# Apple chip identifications from iFixit
+# Device chip identifications from iFixit
+
+Source-linked chip-identification datasets for Apple, Xiaomi and Huawei, covering all years discoverable in the reviewed English iFixit categories and guides.
+
+| Dataset | Identification entries | Device/category records with identifications | Total coverage records | Notes |
+|---|---:|---:|---:|---|
+| [Apple JSON](apple_ifixit_chips.json) | 3,056 | 181 | 645 | See Apple notes below |
+| [Xiaomi JSON](xiaomi_ifixit_chips.json) | 79 | 6 | 253 | [Scope, methods and limitations](xiaomi_README.md) |
+| [Huawei JSON](huawei_ifixit_chips.json) | 246 | 11 | 196 | [Scope, methods and limitations](huawei_README.md) |
+
+Coverage indexes: [Apple](apple_ifixit_coverage.json), [Xiaomi](xiaomi_ifixit_coverage.json), [Huawei](huawei_ifixit_coverage.json).
+
+These are best-effort source inventories, not exhaustive bills of materials. Counts are textual identification entries, not unique physical chips. Empty arrays indicate no identification extracted in the scan, not an absence of chips. Many guides contain video or unlabeled photos without written chip identifications. Uncertain identifications, source inconsistencies and variant limitations are documented in the datasets.
+
+Xiaomi includes Redmi/POCO and explicitly Xiaomi-labeled ecosystem devices, with attribution caveats. Huawei includes Huawei-era Honor categories; three clearly post-divestment Honor models misplaced in the Huawei hierarchy are excluded and recorded. Five explicit Mi Band image annotations were manually transcribed; this is not a systematic image/OCR inventory.
+
+## Apple dataset notes
 
 `apple_ifixit_chips.json` contains devices, written chip identifications, uncertainty flags and source references. `apple_ifixit_coverage.json` is a smaller coverage index.
 
