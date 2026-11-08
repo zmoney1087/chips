@@ -1,0 +1,3165 @@
+{
+  "metadata": {
+    "schema_version": "1.1",
+    "generated_at_utc": "2026-11-08T21:34:22.563478+00:00",
+    "source_site": "https://www.ifixit.com",
+    "scope": "Huawei-associated English iFixit product categories across all years, teardown/disassembly guides and Chip ID guides. Includes historical Honor devices nested in Huawei categories; the independent Honor Phone category is excluded.",
+    "completeness": "Best-effort inventory of written identifications in the reviewed guides, plus specifically documented image-annotation transcriptions; not a certified exhaustive inventory of every chip or product.",
+    "method": [
+      "Enumerated brand-associated product branches in iFixit English category hierarchy.",
+      "Fetched category pages and selected teardown, disassembly and Chip ID guides.",
+      "Cross-checked all 2,114 entries from the global public teardown index.",
+      "Manually reviewed every extracted identification and candidate line for relevance.",
+      "Grouped by source guide category; deduplicated identical identification strings within a category, preserving sources."
+    ],
+    "interpretation": {
+      "chips": "Textual identification entries, not unique physical chip counts. Includes stacked packages, RF modules, sensors, discrete semiconductors and source-listed clock components. Multiple components may share one entry.",
+      "manufacturers_mentioned": "Names mentioned in the identification, not a verified manufacturer or foundry attribution.",
+      "tentative": "True when tentative wording appears in the extracted identification. False does not mean independently verified.",
+      "empty_chips": "No identification extracted in this scan; does not imply the device contains no chips or iFixit never identified them.",
+      "category_has_children": "True means iFixit lists descendant categories; it does not necessarily mean the record is only a product family.",
+      "variants": "Specifications and identifiers refer to the source units. Do not assume all storage sizes, regional models or revisions use the same chips. Combined-device teardown titles remain assigned to their source category.",
+      "coverage_status": "The text_chip_identifications_found value is retained for schema compatibility; consult sources[].extraction_method for documented image-annotation transcriptions.",
+      "brand_attribution": "Brand association follows iFixit category labels, not independent verification of corporate ownership or physical manufacture."
+    },
+    "excluded_material": [
+      "Reader comments and forum answers",
+      "Unlabeled image-only chips (no identity inferred from bare markings)",
+      "Videos and PDF-only labels",
+      "Third-party sources linked from iFixit",
+      "Comprehensive news-archive, replacement-guide and category-specification extraction"
+    ],
+    "attribution": {
+      "publisher": "iFixit and credited guide authors/contributors",
+      "license": "CC BY-NC-SA 3.0, subject to source-specific notices",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "api_documentation": "https://www.ifixit.com/api-docs",
+      "changes": "Factual extraction, grouping, deduplication and selected condensation of chip descriptions. Original narrative and images are not reproduced."
+    },
+    "statistics": {
+      "category_pages_fetched": 197,
+      "global_teardown_index_entries_checked": 2114,
+      "related_guides_reviewed": 40,
+      "device_or_family_records": 196,
+      "records_with_chip_identifications": 11,
+      "chip_identification_entries": 246,
+      "source_identification_occurrences": 253,
+      "manually_transcribed_image_annotation_entries": 0,
+      "fetch_errors": 0
+    },
+    "brand": "Huawei",
+    "image_review_note": "No systematic OCR of board photos. Only written guide identifications are included unless a source explicitly records another extraction method."
+  },
+  "devices": [
+    {
+      "name": "Android u8800",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Android_u8800",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Android u8800"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Hauwei p smart 2021",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Hauwei_p_smart_2021",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Hauwei p smart 2021"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Honor 20 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Honor_20_Pro",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Honor 20 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Honor 5C - NEM L21",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Honor_5C_-_NEM_L21",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Honor 5C - NEM L21"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        77790
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ascend",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ascend",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Ascend"
+      ],
+      "category_has_children": true,
+      "brand_attribution_note": null,
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        72907
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ascend D2",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ascend_D2",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Ascend D2"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ascend G510",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ascend_G510",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei G",
+        "Huawei Ascend G510"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        34368
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ascend G6",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ascend_G6",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei G",
+        "Huawei Ascend G6"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ascend G610",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ascend_G610",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei G",
+        "Huawei Ascend G610"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ascend G620S",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ascend_G620S",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei G",
+        "Huawei Ascend G620S"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ascend G630",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ascend_G630",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei G",
+        "Huawei Ascend G630"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ascend G7",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ascend_G7",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei G",
+        "Huawei Ascend G7"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei ascend G700",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_ascend_G700",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Ascend",
+        "Huawei ascend G700"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ascend Mate 7",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ascend_Mate_7",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Ascend Mate 7"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        44819
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ascend P1 Repair",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ascend_P1_Repair",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei Ascend P1 Repair"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ascend P2 Repair",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ascend_P2_Repair",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei Ascend P2 Repair"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ascend P6-U06",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ascend_P6-U06",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei Ascend P6-U06"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ascend W1",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ascend_W1",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Ascend W1"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ascend XT",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ascend_XT",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Ascend",
+        "Huawei Ascend XT"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ascend Y600",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ascend_Y600",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Ascend Y600"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Band 3 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Band_3_Pro",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Band 3 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Band 4",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Band_4",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Band 4"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Band 4 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Band_4_Pro",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Band 4 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Band 4e",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Band_4e",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Band 4e"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "huawei band 6",
+      "ifixit_device_url": "https://www.ifixit.com/Device/huawei_band_6",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "huawei band 6"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei C300",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_C300",
+      "category_path": [
+        "Phone",
+        "Other OS Phone",
+        "Huawei Feature Phone",
+        "Huawei C300"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei E3531 3G Key",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_E3531_3G_Key",
+      "category_path": [
+        "Computer Hardware",
+        "Networking Hardware",
+        "Portable Hotspot",
+        "Huawei E3531 3G Key"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Feature Phone",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Feature_Phone",
+      "category_path": [
+        "Phone",
+        "Other OS Phone",
+        "Huawei Feature Phone"
+      ],
+      "category_has_children": true,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "HUAWEI FIT",
+      "ifixit_device_url": "https://www.ifixit.com/Device/HUAWEI_FIT",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "HUAWEI FIT"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei G",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_G",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei G"
+      ],
+      "category_has_children": true,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei G9 PLUS",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_G9_PLUS",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei G9 PLUS"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei GR5 2017",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_GR5_2017",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei GR5 2017"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei H881C",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_H881C",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei H881C"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor"
+      ],
+      "category_has_children": true,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor 10",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_10",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor 10"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor 10 Lite",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_10_Lite",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor 10 Lite"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor 20 Lite",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_20_Lite",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor 20 Lite"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor 3C",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_3C",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor 3C"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor 4X",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_4X",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor 4X"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor 5C Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_5C_Pro",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor 5C Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "HUAWEI HONOR 5X",
+      "ifixit_device_url": "https://www.ifixit.com/Device/HUAWEI_HONOR_5X",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "HUAWEI HONOR 5X"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        105370
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor 6",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_6",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor 6"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor 6x",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_6x",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor 6x"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor 7",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_7",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor 7"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor 7A AUM-L29",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_7A_AUM-L29",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor 7A AUM-L29"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor 7x",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_7x",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor 7x"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        141141
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor 8",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_8",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor 8"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        97012
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor 8X",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_8X",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor 8X"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor 9",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_9",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor 9"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        97287
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor 9X",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_9X",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor 9X"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor Holly",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_Holly",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor Holly"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "HUAWEI Honor MagicBook",
+      "ifixit_device_url": "https://www.ifixit.com/Device/HUAWEI_Honor_MagicBook",
+      "category_path": null,
+      "category_has_children": null,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        110285
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor View 20",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_View_20",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor View 20"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Honor View 30 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Honor_View_30_Pro",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Honor",
+        "Huawei Honor View 30 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Historical Honor device within the iFixit Huawei category.",
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Ideos S7 Slim",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Ideos_S7_Slim",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "Huawei Ideos S7 Slim"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Laptop",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Laptop",
+      "category_path": [
+        "PC",
+        "PC Laptop",
+        "Huawei Laptop"
+      ],
+      "category_has_children": true,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei M750",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_M750",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei M750"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei M835",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_M835",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei M835"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate"
+      ],
+      "category_has_children": true,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate 10",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_10",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate 10"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        102392
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate 10 lite",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_10_lite",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate 10 lite"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        121280
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate 10 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_10_Pro",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate 10 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "text_chip_identifications_found",
+      "reviewed_guide_ids": [
+        100096
+      ],
+      "chip_entry_count": 26
+    },
+    {
+      "name": "Huawei Mate 20",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_20",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate 20"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate 20 lite",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_20_lite",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate 20 lite"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate 20 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_20_Pro",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate 20 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "text_chip_identifications_found",
+      "reviewed_guide_ids": [
+        114159
+      ],
+      "chip_entry_count": 22
+    },
+    {
+      "name": "Huawei Mate 20 X",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_20_X",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate 20 X"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        118212
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate 20 X 5G",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_20_X_5G",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate 20 X 5G"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "text_chip_identifications_found",
+      "reviewed_guide_ids": [
+        124808
+      ],
+      "chip_entry_count": 15
+    },
+    {
+      "name": "Huawei Mate 30",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_30",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate 30"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate 30 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_30_Pro",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate 30 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "text_chip_identifications_found",
+      "reviewed_guide_ids": [
+        127743,
+        129894
+      ],
+      "chip_entry_count": 18
+    },
+    {
+      "name": "Huawei Mate 40",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_40",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate 40"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate 40 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_40_Pro",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate 40 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "text_chip_identifications_found",
+      "reviewed_guide_ids": [
+        138729
+      ],
+      "chip_entry_count": 15
+    },
+    {
+      "name": "Huawei Mate 70 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_70_Pro",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate 70 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate 70 Pro Plus",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_70_Pro_Plus",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate 70 Pro Plus"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate 8",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_8",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate 8"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        64819,
+        64920
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate 9",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_9",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate 9"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "text_chip_identifications_found",
+      "reviewed_guide_ids": [
+        75508,
+        75509,
+        98335
+      ],
+      "chip_entry_count": 31
+    },
+    {
+      "name": "Huawei Mate 9 Lite",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_9_Lite",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate 9 Lite"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate PAD 10.4",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_PAD_10.4",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "Huawei Mate PAD 10.4"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate SE (BND-L34)",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_SE_%28BND-L34%29",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate SE (BND-L34)"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate X",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_X",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate X"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate X 70",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_X_70",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate X 70"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate X 70 Air",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_X_70_Air",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate X 70 Air"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mate Xs",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mate_Xs",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "Huawei Mate Xs"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        132809
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei MateBook D 15 (2020)",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_MateBook_D_15_%282020%29",
+      "category_path": [
+        "PC",
+        "PC Laptop",
+        "Huawei Laptop",
+        "Huawei MateBook D 15 (2020)"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei MateBook E 2022",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_MateBook_E_2022",
+      "category_path": [
+        "PC",
+        "PC Laptop",
+        "Huawei Laptop",
+        "Huawei MateBook E 2022"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei matebook X",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_matebook_X",
+      "category_path": [
+        "PC",
+        "PC Laptop",
+        "Huawei Laptop",
+        "Huawei matebook X"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        98151
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Media Pad M3 Lite",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Media_Pad_M3_Lite",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "Huawei Media Pad M3 Lite"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei media pad T1",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_media_pad_T1",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "Huawei media pad T1"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei MediaPad M2",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_MediaPad_M2",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "Huawei MediaPad M2"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei MediaPad M3",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_MediaPad_M3",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "Huawei MediaPad M3"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Mediapad M5 10.8",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Mediapad_M5_10.8",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "Huawei Mediapad M5 10.8"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "HUAWEI MediaPad M5 lite",
+      "ifixit_device_url": "https://www.ifixit.com/Device/HUAWEI_MediaPad_M5_lite",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "HUAWEI MediaPad M5 lite"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei MediaPad Pro 12.6 (2021)",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_MediaPad_Pro_12.6_%282021%29",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "Huawei MediaPad Pro 12.6 (2021)"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei MediaPad S7-301u",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_MediaPad_S7-301u",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "Huawei MediaPad S7-301u"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei mediapad t1 7.0\"",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_mediapad_t1_7.0%22",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "Huawei mediapad t1 7.0\""
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei MediaPad T2",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_MediaPad_T2",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "Huawei MediaPad T2"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "HUAWEI MediaPad T3 10",
+      "ifixit_device_url": "https://www.ifixit.com/Device/HUAWEI_MediaPad_T3_10",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "HUAWEI MediaPad T3 10"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "HUAWEI MediaPad T3 7",
+      "ifixit_device_url": "https://www.ifixit.com/Device/HUAWEI_MediaPad_T3_7",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "HUAWEI MediaPad T3 7"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "huawei mediapad t5",
+      "ifixit_device_url": "https://www.ifixit.com/Device/huawei_mediapad_t5",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "huawei mediapad t5"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei nova",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_nova",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei nova"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Nova 2",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Nova_2",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Nova 2"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Nova 3i",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Nova_3i",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Nova 3i"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Nova 5T",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Nova_5T",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Nova 5T"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Nova 6 5G",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Nova_6_5G",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Nova 6 5G"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Nova 6SE 5G",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Nova_6SE_5G",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Nova 6SE 5G"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Nova 9 SE",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Nova_9_SE",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Nova 9 SE"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei nova plus",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_nova_plus",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei nova plus"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Nova Young",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Nova_Young",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Nova Young"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei NOVA7I",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_NOVA7I",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei NOVA7I"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P"
+      ],
+      "category_has_children": true,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P Smart",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P_Smart",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P Smart"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        133052,
+        138454
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P Smart (2018)",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P_Smart_%282018%29",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P Smart (2018)"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei p smart 2019",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_p_smart_2019",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei p smart 2019"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P smart Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P_smart_Pro",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P smart Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P Smart Z",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P_Smart_Z",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P Smart Z"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P10",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P10",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P10"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P10 Lite",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P10_Lite",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P10 Lite"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P10 Plus",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P10_Plus",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P10 Plus"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P20",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P20",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P20"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P20 Lite",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P20_Lite",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P20 Lite"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P20 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P20_Pro",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P20 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "text_chip_identifications_found",
+      "reviewed_guide_ids": [
+        104605
+      ],
+      "chip_entry_count": 22
+    },
+    {
+      "name": "Huawei P30",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P30",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P30"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "huawei p30 lite",
+      "ifixit_device_url": "https://www.ifixit.com/Device/huawei_p30_lite",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "huawei p30 lite"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P30 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P30_Pro",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P30 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "text_chip_identifications_found",
+      "reviewed_guide_ids": [
+        122028
+      ],
+      "chip_entry_count": 9
+    },
+    {
+      "name": "Huawei P40",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P40",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P40"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P40 lite",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P40_lite",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P40 lite"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P40 lite E",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P40_lite_E",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P40 lite E"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P40 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P40_Pro",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P40 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P8",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P8",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P8"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P8 Lite",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P8_Lite",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P8 Lite"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        45850
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P8 Lite (2017)",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P8_Lite_%282017%29",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P8 Lite (2017)"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P8 Lite 2017",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P8_Lite_2017",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P8 Lite 2017"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P9",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P9",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P9"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "text_chip_identifications_found",
+      "reviewed_guide_ids": [
+        62348,
+        64558,
+        65025
+      ],
+      "chip_entry_count": 38
+    },
+    {
+      "name": "Huawei P9 Lite",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P9_Lite",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P9 Lite"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei P9 Plus",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_P9_Plus",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei P9 Plus"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Phone",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Phone",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone"
+      ],
+      "category_has_children": true,
+      "brand_attribution_note": null,
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        15638
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Phone p6s",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Phone_p6s",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei Phone p6s"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Phone p7",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Phone_p7",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei P",
+        "Huawei Phone p7"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        42925
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Pronto LTE",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Pronto_LTE",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Pronto LTE"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Pura 80 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Pura_80_Pro",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Pura 80 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Pura 80 Pro Plus",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Pura_80_Pro_Plus",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Pura 80 Pro Plus"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Pura 80 Ultra",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Pura_80_Ultra",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Pura 80 Ultra"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei S10 Tablet 10\" Model S10-231u",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_S10_Tablet_10%22_Model_S10-231u",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "Huawei S10 Tablet 10\" Model S10-231u"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Smartwatch",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Smartwatch",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch"
+      ],
+      "category_has_children": true,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei SnapTo G-620",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_SnapTo_G-620",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei G",
+        "Huawei SnapTo G-620"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Summit",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Summit",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Summit"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Tablet",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Tablet",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet"
+      ],
+      "category_has_children": true,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei TalkBand B3",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_TalkBand_B3",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei TalkBand B3"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei TalkBand B5",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_TalkBand_B5",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei TalkBand B5"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei TalkBand B6",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_TalkBand_B6",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei TalkBand B6"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei u7519",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_u7519",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei u7519"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei u8150",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_u8150",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei u8150"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Union",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Union",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Union"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Vitria",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Vitria",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Vitria"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch (1st Gen)",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_%281st_Gen%29",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch (1st Gen)"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch 2",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_2",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch 2"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch 2 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_2_Pro",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch 2 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch 3",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_3",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch 3"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "text_chip_identifications_found",
+      "reviewed_guide_ids": [
+        143845,
+        144001
+      ],
+      "chip_entry_count": 27
+    },
+    {
+      "name": "Huawei Watch 3 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_3_Pro",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch 3 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch Fit",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_Fit",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch Fit"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch Fit Mini",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_Fit_Mini",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch Fit Mini"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch GT",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_GT",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch GT"
+      ],
+      "category_has_children": true,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch GT (42 mm)",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_GT_%2842_mm%29",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch GT",
+        "Huawei Watch GT (42 mm)"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch GT (46 mm)",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_GT_%2846_mm%29",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch GT",
+        "Huawei Watch GT (46 mm)"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch GT 2",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_GT_2",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch GT 2"
+      ],
+      "category_has_children": true,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch GT 2 (42 mm)",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_GT_2_%2842_mm%29",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch GT 2",
+        "Huawei Watch GT 2 (42 mm)"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch GT 2 (46 mm)",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_GT_2_%2846_mm%29",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch GT 2",
+        "Huawei Watch GT 2 (46 mm)"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch GT 2 Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_GT_2_Pro",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch GT 2 Pro"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch GT 2e",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_GT_2e",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch GT 2e"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch GT 3",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_GT_3",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch GT 3"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch GT Runner",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_GT_Runner",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch GT Runner"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch Jewel",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_Jewel",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch Jewel"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Watch Magic",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Watch_Magic",
+      "category_path": [
+        "Apparel",
+        "Smartwatch",
+        "Huawei Smartwatch",
+        "Huawei Watch Magic"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei X40 5G",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_X40_5G",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei X40 5G"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei X8A",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_X8A",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei X8A"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei X8B",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_X8B",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei X8B"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei X9A",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_X9A",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei X9A"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Y",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Y",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Y"
+      ],
+      "category_has_children": true,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Y300",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Y300",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Y300"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Y300II",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Y300II",
+      "category_path": [
+        "Phone",
+        "Linux Phone",
+        "Huawei Y300II"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Y520-U22",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Y520-U22",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Y",
+        "Huawei Y520-U22"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Y550",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Y550",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Y550"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Y6 2018 Prime",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Y6_2018_Prime",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Y",
+        "Huawei Y6 2018 Prime"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Y6 2019",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Y6_2019",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Y",
+        "Huawei Y6 2019"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Y625",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Y625",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Y",
+        "Huawei Y625"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Y635",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Y635",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Y",
+        "Huawei Y635"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "huawei y6s",
+      "ifixit_device_url": "https://www.ifixit.com/Device/huawei_y6s",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Y",
+        "huawei y6s"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Y7 2018 (LDN-L21)",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Y7_2018_%28LDN-L21%29",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Y",
+        "Huawei Y7 2018 (LDN-L21)"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Y7 2019",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Y7_2019",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Y",
+        "Huawei Y7 2019"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Huawei Y9 2019 (JKM-LX1)",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Huawei_Y9_2019_%28JKM-LX1%29",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Y",
+        "Huawei Y9 2019 (JKM-LX1)"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "mate 10 lite",
+      "ifixit_device_url": "https://www.ifixit.com/Device/mate_10_lite",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Mate",
+        "mate 10 lite"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Mediapad x1 7D-501L",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Mediapad_x1_7D-501L",
+      "category_path": [
+        "Tablet",
+        "Android Tablet",
+        "Huawei Tablet",
+        "Mediapad x1 7D-501L"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Pura",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Pura",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Pura"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": "Chip ID source explicitly covers Huawei Pura 70 Pro, not the base Pura 70 model.",
+      "coverage_status": "text_chip_identifications_found",
+      "reviewed_guide_ids": [
+        172264
+      ],
+      "chip_entry_count": 23
+    },
+    {
+      "name": "T-Mobile Huawei Prism U8651T",
+      "ifixit_device_url": "https://www.ifixit.com/Device/T-Mobile_Huawei_Prism_U8651T",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "T-Mobile Huawei Prism U8651T"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        32244
+      ],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "Y9 prime 2019",
+      "ifixit_device_url": "https://www.ifixit.com/Device/Y9_prime_2019",
+      "category_path": [
+        "Phone",
+        "Android Phone",
+        "Huawei Phone",
+        "Huawei Y",
+        "Y9 prime 2019"
+      ],
+      "category_has_children": false,
+      "brand_attribution_note": null,
+      "coverage_status": "no_teardown_or_chip_id_guide_discovered",
+      "reviewed_guide_ids": [],
+      "chip_entry_count": 0
+    },
+    {
+      "name": "华为FreeBuds Pro",
+      "ifixit_device_url": "https://www.ifixit.com/Device/%E5%8D%8E%E4%B8%BAFreeBuds_Pro",
+      "category_path": null,
+      "category_has_children": null,
+      "brand_attribution_note": null,
+      "coverage_status": "no_chip_identifications_extracted_from_reviewed_guides",
+      "reviewed_guide_ids": [
+        139758
+      ],
+      "chip_entry_count": 0
+    }
+  ],
+  "excluded_categories": [
+    {
+      "name": "Huawei Honor 200 Pro",
+      "reason": "Post-divestment independent Honor model, despite its location in the iFixit Huawei tree.",
+      "release_year": 2024,
+      "source_url": "https://www.honor.com/global/news/honor-200-series-eu-launch/"
+    },
+    {
+      "name": "Huawei Honor 70",
+      "reason": "Post-divestment independent Honor model, despite its location in the iFixit Huawei tree.",
+      "release_year": 2022,
+      "source_url": "https://www.honor.com/pk/news/honor-70-series-launch/"
+    },
+    {
+      "name": "Huawei Honor X8 5G",
+      "reason": "Post-divestment independent Honor model, despite its location in the iFixit Huawei tree.",
+      "release_year": 2022,
+      "source_url": "https://honor.prezly.com/honor-prasentiert-das-honor-x8-5g-5g-power-fur-unbeschwertes-entertainment"
+    }
+  ]
+}
