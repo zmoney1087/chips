@@ -1,0 +1,881 @@
+{
+  "schema_version": "1.0",
+  "description": "Verified manufacturer-hosted datasheet PDFs for exact identifiers. This is an incomplete catalog; unmatched chips receive clearly labeled search links. Links do not prove a tentative chip identification.",
+  "entries": {
+    "BGU8009": {
+      "manufacturer": "NXP",
+      "url": "https://www.nxp.com/docs/en/data-sheet/BGU8009.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "BGU8H1": {
+      "manufacturer": "NXP",
+      "url": "https://www.nxp.com/docs/en/data-sheet/BGU8H1.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "BGU8M1": {
+      "manufacturer": "NXP",
+      "url": "https://www.nxp.com/docs/en/data-sheet/BGU8M1.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "BHI260AB": {
+      "manufacturer": "Bosch Sensortec",
+      "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bhi260ab-ds000.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "BMA456": {
+      "manufacturer": "Bosch Sensortec",
+      "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bma456-ds000.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "BMI270": {
+      "manufacturer": "Bosch Sensortec",
+      "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "BMP280": {
+      "manufacturer": "Bosch Sensortec",
+      "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "BQ24045": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/bq24045.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "BQ24232": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/bq24232.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "BQ24250C": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/bq24250c.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "BQ25601": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/bq25601.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "BQ25892": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/bq25892.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "BQ25895": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/bq25895.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "DRV10975": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/drv10975.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "DRV2605": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/drv2605.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "DRV8833": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/drv8833.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "LIS331DLH": {
+      "manufacturer": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/lis331dlh.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "LM3642": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/lm3642.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "LM3644": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/lm3644.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "LM393": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/lm393.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "LPS22HB": {
+      "manufacturer": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/lps22hb.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "LSM6DSM": {
+      "manufacturer": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/lsm6dsm.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "LSM6DSO": {
+      "manufacturer": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/lsm6dso.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "MAX13042E": {
+      "manufacturer": "Analog Devices",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX13042E-MAX13045E.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "MAX14689": {
+      "manufacturer": "Analog Devices",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX14689.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "MAX44284": {
+      "manufacturer": "Analog Devices",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX44284.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "MAX77596": {
+      "manufacturer": "Analog Devices",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX77596.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "MAX77813": {
+      "manufacturer": "Analog Devices",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX77813.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "MAX8559": {
+      "manufacturer": "Analog Devices",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX8559.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "MAX9028": {
+      "manufacturer": "Analog Devices",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX9025-MAX9028.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "MAX98357B": {
+      "manufacturer": "Analog Devices",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "MAX9938": {
+      "manufacturer": "Analog Devices",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX9938.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AHC1G08": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ahc1g08.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AHC1G32": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ahc1g32.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AUC1G17": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74auc1g17.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AUP1G04": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74aup1g04.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AUP1G07": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74aup1g07.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AUP1G08": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74aup1g08.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AUP1G17": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74aup1g17.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AUP1G32": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74aup1g32.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AUP1G34": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74aup1g34.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AUP1G74": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74aup1g74.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AUP1G97": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74aup1g97.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AUP1T34": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74aup1t34.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AUP2G07": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74aup2g07.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AVC4T234": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74avc4t234.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AVC4T774": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AXC1T45": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74axc1t45.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74AXC2T45": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74axc2t45.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74LVC08A": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc08a.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74LVC1G02": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g02.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74LVC1G04": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74LVC1G07": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74LVC1G126": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g126.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74LVC1G17": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74LVC1G32": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74LVC1G98": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g98.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74LVC1G99": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g99.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "SN74LVC8T245": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "STM32F103VB": {
+      "manufacturer": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/stm32f103vb.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "STM32L052T8": {
+      "manufacturer": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/stm32l052t8.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "STM32L072CZ": {
+      "manufacturer": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/stm32l072cz.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "STM32L476MG": {
+      "manufacturer": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/stm32l476mg.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "STM32L496QG": {
+      "manufacturer": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/stm32l496qg.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "STM32L496VG": {
+      "manufacturer": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/stm32l496vg.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "STM32L4A6VG": {
+      "manufacturer": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/stm32l4a6vg.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "STM32L4P5QG": {
+      "manufacturer": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/stm32l4p5qg.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TLV320ADC3100": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tlv320adc3100.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TLV341": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tlv341.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TLV3691": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tlv3691.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TLV3701": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tlv3701.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TLV62084": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tlv62084.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TLV6703": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tlv6703.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TLV7011": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tlv7011.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TLV7021": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tlv7021.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TLV9001": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tlv9001.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TLV9051": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tlv9051.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS2116": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps2116.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS22908": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps22908.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS22915": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps22915.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS22965": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps22965.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS22966": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps22966.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS22969": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps22969.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS22990": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps22990.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS2557": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps2557.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS2559": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps2559.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS2561": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps2561.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS3808": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS3895": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps3895.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS3897": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps3897.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS3898": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps3898.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS51120": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps51120.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS51916": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps51916.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS54218": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps54218.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS54231": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps54231.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS54320": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps54320.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS54560": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps54560.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS54560B": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps54560b.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS54622": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps54622.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS56637": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps56637.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS61022": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps61022.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS61045": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps61045.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS61178": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps61178.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS61220": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps61220.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS61230A": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps61230a.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS61256A": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps61256a.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS62110": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62110.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS62125": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62125.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS62130A": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62130a.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS62135": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62135.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS62140": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62140.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS62160": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62160.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS62180": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62180.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS62684": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62684.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS62736": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62736.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS62743": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62743.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS62746": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62746.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS62821": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62821.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS62825": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62825.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS628502": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps628502.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS630250": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps630250.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS65132": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps65132.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS65270": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps65270.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "TPS65708": {
+      "manufacturer": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/tps65708.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    },
+    "VL53L0X": {
+      "manufacturer": "STMicroelectronics",
+      "url": "https://www.st.com/resource/en/datasheet/vl53l0x.pdf",
+      "checked_on": "2026-11-08",
+      "verification": "Manufacturer-hosted PDF fetched; part identifier checked on the first two pages. Document revisions and device variants still require review.",
+      "kind": "datasheet"
+    }
+  }
+}
