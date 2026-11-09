@@ -205,6 +205,7 @@ HTML_TEMPLATE = r'''<!doctype html>
 <script>
 'use strict';
 const DATA=JSON.parse(document.getElementById('report-data').textContent);
+if(DATA.source_records){for(const d of DATA.devices){for(const c of d.chips){c.sources=c.sources.map(index=>DATA.source_records[index]);}}}
 const $=id=>document.getElementById(id);
 let selected=null;
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
@@ -250,9 +251,28 @@ $('search').addEventListener('input',filterChanged);$('brand').addEventListener(
 </script></body></html>'''
 
 
+def pack_report(report: dict) -> dict:
+    """Store repeated source citations once without changing the report model."""
+    packed = {**report, 'devices': [], 'source_records': []}
+    source_ids = {}
+    for device in report['devices']:
+        chips = []
+        for chip in device['chips']:
+            references = []
+            for source in chip['sources']:
+                key = json.dumps(source, sort_keys=True, ensure_ascii=False)
+                if key not in source_ids:
+                    source_ids[key] = len(packed['source_records'])
+                    packed['source_records'].append(source)
+                references.append(source_ids[key])
+            chips.append({**chip, 'sources': references})
+        packed['devices'].append({**device, 'chips': chips})
+    return packed
+
+
 def write_html(path: Path, report: dict) -> None:
     # Escape script-closing tags and JS line separators in untrusted source text.
-    payload = json.dumps(report, ensure_ascii=False, separators=(',', ':'))
+    payload = json.dumps(pack_report(report), ensure_ascii=False, separators=(',', ':'))
     payload = payload.replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026').replace('\u2028', '\\u2028').replace('\u2029', '\\u2029')
     page = HTML_TEMPLATE.replace('__REPORT_DATA__', payload)
     path.parent.mkdir(parents=True, exist_ok=True)
