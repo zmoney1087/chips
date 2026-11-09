@@ -17,12 +17,19 @@ You can filter by Apple, Xiaomi, or Huawei; search for a chip; show records with
 - **Chip:** the identification from the source. One description can name several chips or a stacked package; the displayed counts are descriptions, not a verified count of physical chips.
 - **What it does:** a plain-language explanation based on the teardown wording. This is an interpretation, not a new electrical analysis or a wiring guide.
 - **Datasheets:** matching manufacturer-hosted PDFs in the verified catalog, labeled with their part identifiers and check dates.
-- **Identification uncertain:** the source uses tentative wording, or the inventory records a dispute. A correct datasheet link does not establish that the chip identification itself is correct.
-- **Teardown evidence:** links back to the source steps and source-disagreement notes.
+- **Source uncertainty:** the source or extraction uses tentative wording, or records a dispute. No uncertainty flag is not a confirmation and is not a confidence score.
+- **Project verification:** every entry is marked **Not independently verified by this project**. Source authors may have checked their identifications, but this project has not independently confirmed chip identity on the physical device.
+- **Where this identification came from:** original iFixit guide/article and step links are visible on every card. Transcribed image labels also link to the original annotated image. The extraction method is displayed. Source author/revision details and disagreements appear under **Source details and identification notes**.
 
 **Important:** a datasheet cannot be supplied reliably for every entry. Many Apple custom chips, Huawei parts, unexplained markings, and unnamed components do not have an established public datasheet in this catalog. Those rows explicitly say **No verified datasheet linked**, with a separate **Search for datasheets** button. Search results are not verified documents. A missing link does not prove no datasheet exists.
 
 The starting catalog contains **125 verified part identifiers**, matching **200 of the 3,381 identification entries** in the current inventories. Each PDF was fetched from a manufacturer's site and checked for its identifier on its first two pages on November 8, 2026. Document revisions, regional devices, ordering suffixes, source errors, and combined entries still require review. Photos, videos, and chips outside the original extraction scope are not made complete by this report.
+
+## Follow the original evidence
+
+Open the source step on the chip card and compare its wording and annotated board image with the identification. Check the device model, region, board revision and configuration. Review uncertainty and disagreement notes. A manufacturer PDF establishes information about a named part, not its presence in a particular device.
+
+The report provides no numerical confidence score. Source uncertainty, independent hardware verification and document-link checks are separate. CSV exports preserve evidence URLs, extraction methods and annotated-image URLs alongside the separate status columns.
 
 ## Regenerate it with Python
 
@@ -84,7 +91,7 @@ The script matches complete identifiers. For example, `BMA280` will not match `B
 python -m unittest discover -s tests -v
 ```
 
-Tests cover exact part matching, uncertainty, unknown-chip fallbacks, empty records, multi-function descriptions, invalid inputs, unsafe source content, spreadsheet formulas, and accidental overwriting of input files. Browser checks were also run for brand/device selection, chip search, the datasheet-only filter, CSV download, disagreement notes, empty search results, and mobile layout.
+Tests cover source provenance, verification-status separation, source-table round trips, exact part matching, uncertainty, unknown-chip fallbacks, empty records, multi-function descriptions, invalid inputs, unsafe source content, spreadsheet formulas, and accidental overwriting of input files. Browser checks were also run for visible source links, independent-verification labels, annotated-image links, CSV provenance columns and brand/device selection, chip search, the datasheet-only filter, CSV download, disagreement notes, empty search results, and mobile layout.
 
 ## Sources and rights
 
