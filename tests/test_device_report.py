@@ -47,6 +47,49 @@ class ReportTests(unittest.TestCase):
         self.assertTrue(chip['search_url'].startswith('https://www.google.com/search?'))
         self.assertTrue(chip['tentative'])
 
+
+    def test_no_uncertainty_flag_is_not_independent_verification(self):
+        data = report.build_report([self.inventory()], self.catalog)
+        chip = data['devices'][0]['chips'][0]
+        self.assertFalse(chip['tentative'])
+        self.assertEqual(chip['source_uncertainty'], 'not_flagged')
+        self.assertEqual(chip['verification_status'], 'not_independently_verified')
+
+    def test_image_and_author_provenance_are_retained(self):
+        path = self.inventory()
+        data = json.loads(path.read_text())
+        data['source_guides'] = [{'guide_id': 7, 'title': 'Example', 'revision_id': 123, 'author': 'Contributor'}]
+        data['devices'][0]['chips'][0]['sources'][1].update({
+            'guide_id': 7, 'step_number': 2, 'step_id': 12,
+            'image_url': 'https://guide-images.cdn.ifixit.com/igi/example.full',
+            'extraction_method': 'manual_transcription_of_source_image_annotation'})
+        path.write_text(json.dumps(data))
+        ref = report.build_report([path], self.catalog)['devices'][0]['chips'][0]['sources'][0]
+        self.assertEqual(ref['revision_id'], 123)
+        self.assertEqual(ref['author'], 'Contributor')
+        self.assertEqual(ref['step_id'], 12)
+        self.assertTrue(ref['image_url'].endswith('example.full'))
+
+    def test_csv_keeps_project_verification_separate(self):
+        data = report.build_report([self.inventory()], self.catalog)
+        path = self.root / 'chips.csv'
+        report.write_csv(path, data)
+        with path.open(encoding='utf-8-sig', newline='') as stream:
+            row = next(csv.DictReader(stream))
+        self.assertEqual(row['Project verification status'], 'Not independently verified by this project')
+        self.assertIn('not verification', row['Source uncertainty flag'])
+        self.assertTrue(row['iFixit evidence'].startswith('https://www.ifixit.com/'))
+
+    def test_shared_source_packing_preserves_citations_and_original_model(self):
+        data = report.build_report([self.inventory()], self.catalog)
+        data['devices'][0]['chips'] *= 2
+        packed = report.pack_report(data)
+        self.assertEqual(len(packed['source_records']), 1)
+        for chip in packed['devices'][0]['chips']:
+            restored = [packed['source_records'][index] for index in chip['sources']]
+            self.assertEqual(restored, data['devices'][0]['chips'][0]['sources'])
+        self.assertIsInstance(data['devices'][0]['chips'][0]['sources'][0], dict)
+
     def test_empty_records_and_multiple_roles_are_preserved(self):
         data = report.build_report([self.inventory('LPDDR4 RAM stacked over a processor')], self.catalog)
         self.assertEqual(data['stats']['records'], 2)
