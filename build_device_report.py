@@ -205,7 +205,7 @@ HTML_TEMPLATE = r'''<!doctype html>
 <script>
 'use strict';
 const DATA=JSON.parse(document.getElementById('report-data').textContent);
-if(DATA.source_records){for(const d of DATA.devices){for(const c of d.chips){c.sources=c.sources.map(index=>DATA.source_records[index]);}}}
+if(DATA.source_records){for(const d of DATA.devices){d.id=d.id||d.brand+'::'+d.name;for(const c of d.chips){c.sources=c.sources.map(index=>DATA.source_records[index]);if(DATA.role_records)c.roles=c.roles.map(index=>DATA.role_records[index]);c.datasheets=c.datasheets||[];if(DATA.datasheet_records)c.datasheets=c.datasheets.map(index=>DATA.datasheet_records[index]);c.manufacturers=c.manufacturers||[];c.notes=c.notes||[];c.tentative=!!c.tentative;c.search_url=c.search_url||'https://www.google.com/search?q='+encodeURIComponent(c.identification+' datasheet');c.verification_status='not_independently_verified';c.source_uncertainty=c.tentative?'flagged':'not_flagged';}}}
 const $=id=>document.getElementById(id);
 let selected=null;
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
@@ -252,21 +252,35 @@ $('search').addEventListener('input',filterChanged);$('brand').addEventListener(
 
 
 def pack_report(report: dict) -> dict:
-    """Store repeated source citations once without changing the report model."""
-    packed = {**report, 'devices': [], 'source_records': []}
-    source_ids = {}
+    """Deduplicate repeated citations, explanations and documents for offline HTML."""
+    packed = {**report, 'devices': [], 'source_records': [], 'role_records': [], 'datasheet_records': []}
+    indexes = {name: {} for name in ('source_records', 'role_records', 'datasheet_records')}
+
+    def reference(table: str, value: dict) -> int:
+        key = json.dumps(value, sort_keys=True, ensure_ascii=False)
+        if key not in indexes[table]:
+            indexes[table][key] = len(packed[table])
+            packed[table].append(value)
+        return indexes[table][key]
+
     for device in report['devices']:
         chips = []
         for chip in device['chips']:
-            references = []
-            for source in chip['sources']:
-                key = json.dumps(source, sort_keys=True, ensure_ascii=False)
-                if key not in source_ids:
-                    source_ids[key] = len(packed['source_records'])
-                    packed['source_records'].append(source)
-                references.append(source_ids[key])
-            chips.append({**chip, 'sources': references})
-        packed['devices'].append({**device, 'chips': chips})
+            item = {
+                'identification': chip['identification'],
+                'sources': [reference('source_records', source) for source in chip['sources']],
+                'roles': [reference('role_records', role) for role in chip['roles']],
+            }
+            if chip['manufacturers']:
+                item['manufacturers'] = chip['manufacturers']
+            if chip['tentative']:
+                item['tentative'] = True
+            if chip['notes']:
+                item['notes'] = chip['notes']
+            if chip['datasheets']:
+                item['datasheets'] = [reference('datasheet_records', doc) for doc in chip['datasheets']]
+            chips.append(item)
+        packed['devices'].append({**{k: v for k, v in device.items() if k not in ('id', 'coverage_status')}, 'chips': chips})
     return packed
 
 
