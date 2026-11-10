@@ -11,7 +11,9 @@ Choose a device to see its identified chips, plain-language descriptions of what
 - [All entries as a spreadsheet CSV](device_chips.csv).
 - [Verified datasheet catalog](datasheet_catalog.json): 125 part identifiers, matching 200 of the current 3,381 identification entries. Every other entry has a clearly labeled search link; that is not a verified datasheet. A public datasheet is not established for many custom or unidentified chips.
 
-Validation: nine Python tests plus browser checks for selection, filtering, CSV download, source disagreements, empty searches and mobile layout. The script makes no network requests and preserves the original inventories.
+Validation: Python tests plus browser checks for selection, filtering, CSV download, source disagreements, empty searches and mobile layout. The script makes no network requests and preserves the original inventories.
+
+Source links are visible on every chip card, including the original iFixit step and annotated image where available. **Source uncertainty is not a confidence score.** Each identification separately states that this project has not independently verified it on the physical device. Datasheet checks concern the document, not a chip’s presence in the device. CSV exports preserve separate uncertainty, verification and source-evidence columns.
 
 ## JSON inventories
 
